@@ -13,4 +13,4 @@ threads = [threading.Thread(target=cpu_heavy) for _ in range(2)]
 [t.start() for t in threads]
 [t.join() for t in threads]
 
-print(f"Time taken: {time.time() - start:.2f} seconds")
+print(f"Time taken: {time.time() - start:.2f} seconds") 

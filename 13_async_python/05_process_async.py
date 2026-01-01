@@ -10,5 +10,6 @@ async def main():
         result = await loop.run_in_executor(pool, encrypt, "credit_card_1234")
         print(f"{result}")
 
+        
 if __name__ == "__main__":
     asyncio.run(main())
